@@ -1,21 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header class="header">
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
-    </header>
-    <main class="main">
-        
-    </main>
-    <footer class="footer">
-        
-    </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Landing Page</title>
+  </head>
+  <body>
+    <section id="hero">
+      <nav>
+        <div class="nav-left">
+          <ul class="menu">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Product</a>
+            </li>
+            <li>
+              <a href="">Pricing</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-center">
+            <img src="img/nav-logo.png" alt="logo" />
+          </div>
+
+          <div class="nav-right">
+            <img src="img/socials.png" alt="socials-img" />
+            <img src="img/socials2.png" alt="socials-img" />
+            <img src="img/socials4.png" alt="socials-img" />
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-text-container">
+        <img src="img/hero-backgr.jpg" alt="Hero image" />
+        <div class="hero-text">
+          <h1>The best products start with Figma</h1>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </div>
+
+        <div class="hero-btn-container">
+          <button class="hero-btn" type="button">Try For Free</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="features-container">
+        <h2>Features</h2>
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </h4>
+      </div>
+
+      <div class="features-container">
+        <div class="item"></div>
+        <img src="img/f1.svg" alt="feature drawing" />
+        <h3>OpenType features Variable fonts</h3>
+        <p>
+          Slate helps you see how many more days you need to work to reach your
+          financial goal.
+        </p>
+
+        <div class="item"></div>
+        <img src="img/f2.svg" alt="feature drawing" />
+        <h3>Design with real data</h3>
+        <p>
+          Slate helps you see how many more days you need to work to reach your
+          financial goal.
+        </p>
+
+        <div class="item"></div>
+        <img src="img/f3.svg" alt="feature drawing" />
+        <h3>Fastest way to take action</h3>
+        <p>
+          Slate helps you see how many more days you need to work to reach your
+          financial goal.
+        </p>
+      </div>
+
+      <div class="video-container">
+        <div class="video-player">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Cx2dkpBxst8?si=4URjKFmYKha7VDUL"
+            title="Promo Video"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2">
+      <div class="section2">
+        <div>
+          <div class="sec2-txt">
+            <h2>Fastest way to organize</h2>
+            <h4>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </h4>
+          </div>
+          <div class="sec2-btn">
+            <button class="hero-btn" type="button">Try For Free</button>
+          </div>
+        </div>
+
+        <div class="sec2-img">
+          <img src="img/@ Macbook Pro.svg" alt="Macbook Pro" />
+        </div>
+      </div>
+    </section>
+
+    <section id="section3">
+      <div class="section3">
+        <div class="sec3-img">
+          <img
+            src="img/undraw_newsletter_vovu.svg"
+            alt="Drawing of a person and a letter"
+          />
+        </div>
+
+        <div>
+          <div class="sec3-txt">
+            <h3>At your fingertips</h3>
+            <h2>Lightning fast prototyping</h2>
+          </div>
+          <div class="sec3-btn">
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Available exclusivery on Figmaland</p>
+            <div class="sec3-btn-input">
+              <input
+                type="email"
+                id="email-input"
+                name="email"
+                required
+                placeholder="Your Email"
+              />
+              <button class="hero-btn" type="button">Subscibe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
