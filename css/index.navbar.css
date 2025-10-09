@@ -41,9 +41,9 @@ header {
 
 .navbar__menu li a:hover{
   text-shadow: 
-    0 0 5px #2091f9,  
-    0 0 10px #2091f9,
-    0 0 20px #2091f9;
+    0 0 7px #2091f9,  
+    0 0 12px #2091f9,
+    0 0 22px #2091f9;
 }
 
 .header__nav-right a img:hover {
@@ -56,7 +56,7 @@ header {
   height: 100%;
   width: 45%;
   justify-content: center;
-  gap: max(10px, 2dvw);
+  gap: max(10px, 1.8dvw);
 }
 
 .header__nav-right a img, .header__nav-left a img{
