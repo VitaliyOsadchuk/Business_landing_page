@@ -12,3 +12,18 @@
   border: 1px solid #222222;
 }
 
+#hero__btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #2091f9;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#hero__btn:hover {
+  box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
+  transform: translateY(-1px);
+}
