@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Figmaland</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__nav">
         <div class="header__nav-left">
-          <ul class="menu">
+          <ul class="navbar__menu">
             <li>
               <a href="#hero">Home</a>
             </li>
@@ -26,23 +33,32 @@
               <a href="#contacts">Contact</a>
             </li>
           </ul>
-          <div class="header__nav-center">
-            <a href="index.html">
-              <img src="img/figmaland-logo.svg" alt="figmaland logo" />
-            </a>
-          </div>
-          <div class="header__nav-right">
-            <img src="img/twitter-logo-white.svg" alt="twitter logo" />
-            <img src="img/linkedin-logo-white.svg" alt="linkedin logo" />
-            <img src="img/facebook-logo-white.svg" alt="facebook logo" />
-          </div>
+          <a href="index.html">
+            <img src="img/figmaland-logo.svg" alt="figmaland logo" />
+          </a>
+        </div>
+        <div class="header__nav-right">
+          <a href="#"
+            ><img src="img/twitter-logo-white.svg" alt="twitter logo"
+          /></a>
+          <a href="#"
+            ><img src="img/linkedin-logo-white.svg" alt="linkedin logo"
+          /></a>
+          <a href="#"
+            ><img src="img/facebook-logo-white.svg" alt="facebook logo"
+          /></a>
+          <!-- <button class="nav__burger-icon" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button> -->
         </div>
       </nav>
     </header>
 
     <main>
       <section class="hero" id="hero">
-        <div class="hero__text-container">
+        <div class="hero__container">
           <img width="400" src="img/hero-backgr.jpg" alt="background image" />
           <div class="hero__text">
             <h1>The best products start with Figma</h1>

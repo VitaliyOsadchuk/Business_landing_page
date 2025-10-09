@@ -1,0 +1,23 @@
+@import "index.navbar.css";
+@import "index.hero.css";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  background-color: #FFF;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
