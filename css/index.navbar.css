@@ -23,7 +23,7 @@ header {
       justify-content: flex-end;
       gap: max(10px, 3vw);
 
-      @media (max-width: 768px) {
+      @media (max-width: 1025px) {
         & {
           justify-content: flex-start;
           padding-left: max(10px, 3vw);
@@ -42,7 +42,7 @@ header {
       justify-content: center;
       gap: max(10px, 1.8vw);
 
-      @media (max-width: 768px) {
+      @media (max-width: 1025px) {
         & {
           justify-content: flex-end;
           padding-right: max(20px, 3vw);
@@ -53,14 +53,14 @@ header {
         height: 100%;
         width: auto;
 
-        @media (min-width: 768px) {
+        @media (min-width: 1025px) {
           &:hover {
             filter: drop-shadow(0 0 5px #2091f9) drop-shadow(0 0 10px #2091f9)
               drop-shadow(0 0 20px #2091f9);
           }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1025px) {
           & {
             display: none;
           }
@@ -72,7 +72,7 @@ header {
         cursor: pointer;
 
         /* menu - in progress */
-        @media (max-width: 768px) {
+        @media (max-width: 1025px) {
           & {
             position: fixed;
             top: 0;
@@ -85,6 +85,7 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
           }
 
           & .burger__menu {
@@ -116,7 +117,7 @@ header {
         display: none;
         cursor: pointer;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1025px) {
           & {
             display: block;
             position: fixed;
@@ -148,7 +149,7 @@ header {
       gap: max(5px, 3dvw);
       list-style: none;
 
-      @media (max-width: 768px) {
+      @media (max-width: 1025px) {
         & {
           display: none;
         }
@@ -160,7 +161,7 @@ header {
         text-decoration: none;
         transition: text-shadow 0.3s ease;
 
-        @media (min-width: 768px) {
+        @media (min-width: 1025px) {
           &:hover {
             text-shadow: 0 0 7px #2091f9, 0 0 12px #2091f9, 0 0 22px #2091f9;
           }
