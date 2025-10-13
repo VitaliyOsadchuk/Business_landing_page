@@ -2,65 +2,69 @@ header {
   position: absolute;
   z-index: 100;
   width: 100%;
-}
 
-.header__nav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  padding-top: 3vh;
-}
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding-top: 3vh;
 
-.navbar__menu,
-.header__nav-right,
-.header__nav-left {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+    .header__nav-left,
+    .header__nav-right,
+    .navbar__menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
 
-.header__nav-left {
-  width: 55%;
-  justify-content: flex-end;
-  gap: max(5px, 3dvw);
-}
+    .header__nav-left {
+      width: 55%;
+      justify-content: flex-end;
+      gap: max(5px, 3dvw);
 
-.navbar__menu {
-  font-size: 1.5rem;
-  gap: max(5px, 3dvw);
-  list-style: none;
-}
+      a img {
+        height: 100%;
+        width: auto;
+      }
+    }
 
-.navbar__menu li a {
-  font-family: "Quicksand", sans-serif;
-  color: white;
-  text-decoration: none;
-  transition: text-shadow 0.3s ease;
-}
+    .header__nav-right {
+      height: 100%;
+      width: 45%;
+      justify-content: center;
+      gap: max(10px, 1.8dvw);
 
-.navbar__menu li a:hover{
-  text-shadow: 
-    0 0 7px #2091f9,  
-    0 0 12px #2091f9,
-    0 0 22px #2091f9;
-}
+      a img {
+        height: 100%;
+        width: auto;
 
-.header__nav-right a img:hover {
-  filter: drop-shadow(0 0 5px #2091f9)
-          drop-shadow(0 0 10px #2091f9)
-          drop-shadow(0 0 20px #2091f9);
-}
+        @media (min-width: 601px) {
+          &:hover {
+            filter: drop-shadow(0 0 5px #2091f9) drop-shadow(0 0 10px #2091f9)
+              drop-shadow(0 0 20px #2091f9);
+          }
+        }
+      }
+    }
 
-.header__nav-right {
-  height: 100%;
-  width: 45%;
-  justify-content: center;
-  gap: max(10px, 1.8dvw);
-}
+    .navbar__menu {
+      font-size: 1.5rem;
+      gap: max(5px, 3dvw);
+      list-style: none;
 
-.header__nav-right a img, .header__nav-left a img{
-height: 100%;
-width: auto;
-}
+      li a {
+        font-family: "Quicksand", sans-serif;
+        color: white;
+        text-decoration: none;
+        transition: text-shadow 0.3s ease;
 
+        @media (min-width: 601px) {
+          &:hover {
+            text-shadow: 0 0 7px #2091f9, 0 0 12px #2091f9, 0 0 22px #2091f9;
+          }
+        }
+      }
+    }
+  }
+}
