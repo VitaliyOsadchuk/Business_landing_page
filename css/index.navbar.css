@@ -23,7 +23,7 @@ header {
       justify-content: flex-end;
       gap: max(10px, 3vw);
 
-      @media (max-width: 1025px) {
+      @media (max-width: 1550px) {
         & {
           justify-content: flex-start;
           padding-left: max(10px, 3vw);
@@ -42,7 +42,7 @@ header {
       justify-content: center;
       gap: max(10px, 1.8vw);
 
-      @media (max-width: 1025px) {
+      @media (max-width: 1550px) {
         & {
           justify-content: flex-end;
           padding-right: max(20px, 3vw);
@@ -53,14 +53,14 @@ header {
         height: 100%;
         width: auto;
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1550px) {
           &:hover {
             filter: drop-shadow(0 0 5px #2091f9) drop-shadow(0 0 10px #2091f9)
               drop-shadow(0 0 20px #2091f9);
           }
         }
 
-        @media (max-width: 1025px) {
+        @media (max-width: 1550px) {
           & {
             display: none;
           }
@@ -72,7 +72,7 @@ header {
         cursor: pointer;
 
         /* menu - in progress */
-        @media (max-width: 1025px) {
+        @media (max-width: 1550px) {
           & {
             position: fixed;
             top: 0;
@@ -80,6 +80,9 @@ header {
             height: 100vh;
             width: 70vw;
             background-color: #252b42;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-left: 2px solid #2091f9;
             transform: translateX(100%);
             transition: transform 0.4s ease-in-out;
             display: flex;
@@ -89,18 +92,27 @@ header {
           }
 
           & .burger__menu {
+            width: 100%;
             list-style: none;
             padding: 0;
             display: flex;
             flex-direction: column;
-            gap: 30px;
+
+            & li {
+              padding: max(5px, 3vh);
+              border-top: 1px dashed #2091f9;
+            }
+
+            & li:last-child {
+              border-bottom: 1px dashed #2091f9;
+            }
           }
         }
 
         & li a {
           font-family: "Quicksand", sans-serif;
-          font-size: 1.5rem;
-          color: white;
+          font-size: 1.8rem;
+          color: #fff;
           text-decoration: none;
           margin: 16px 0;
         }
@@ -117,7 +129,7 @@ header {
         display: none;
         cursor: pointer;
 
-        @media (max-width: 1025px) {
+        @media (max-width: 1550px) {
           & {
             display: block;
             position: fixed;
@@ -149,7 +161,7 @@ header {
       gap: max(5px, 3dvw);
       list-style: none;
 
-      @media (max-width: 1025px) {
+      @media (max-width: 1550px) {
         & {
           display: none;
         }
@@ -161,7 +173,7 @@ header {
         text-decoration: none;
         transition: text-shadow 0.3s ease;
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1550px) {
           &:hover {
             text-shadow: 0 0 7px #2091f9, 0 0 12px #2091f9, 0 0 22px #2091f9;
           }
