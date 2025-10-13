@@ -76,7 +76,7 @@
       cursor: pointer;
       transition: box-shadow 0.3s ease, transform 0.3s ease;
 
-      @media (min-width: 601px) {
+      @media (min-width: 768px) {
         &:hover {
           box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
           transform: translateY(-1px);
@@ -85,7 +85,7 @@
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .hero__text {
       width: 90%;
 
@@ -96,7 +96,7 @@
   }
 }
 
-/* Опис анімації (має бути в кінці файлу, поза іншими селекторами) */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
