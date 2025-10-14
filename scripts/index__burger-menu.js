@@ -12,3 +12,14 @@ navLinks.forEach((link) => {
     navMenu.classList.remove("active");
   });
 });
+
+document.addEventListener("click", (event) => {
+  if (
+    navMenu.classList.contains("active") &&
+    !navMenu.contains(event.target) &&
+    !burger.contains(event.target)
+  ) {
+    burger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+});
