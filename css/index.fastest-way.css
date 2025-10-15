@@ -5,6 +5,7 @@
 
   @media (max-width: 1000px) {
     width: 90%;
+    padding-top: max(120px, 15vh);
   }
 }
 
