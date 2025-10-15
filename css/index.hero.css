@@ -85,7 +85,7 @@
     #hero__btn {
       width: 100%;
       padding: max(10px, 1.5vh);
-      font-size: clamp(1rem, 3vw, 1.5rem);
+      font-size: 1rem;
       background-color: #2091f9;
       color: #fff;
       border: 0.5px solid #000;
