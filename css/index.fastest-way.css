@@ -81,6 +81,14 @@
       @media (max-width: 1000px) {
         margin-bottom: 3rem;
       }
+
+      @media (min-width: 1000px) {
+        &:hover {
+          transition: box-shadow 0.3s ease, transform 0.3s ease;
+          box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
+          transform: translateY(-1px);
+        }
+      }
     }
   }
 
