@@ -46,7 +46,7 @@
     h1 {
       width: 85%;
       font-size: clamp(3rem, 6vw, 4rem);
-      font-family: "Rubik", sans-serif;
+      font-family: "Rubik", 'Times New Roman', Times, serif;
       color: #ffffff;
       padding-bottom: max(6px, 5vh);
       opacity: 0;

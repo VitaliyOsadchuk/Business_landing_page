@@ -1,30 +1,32 @@
 .fastest-way {
   margin: auto;
   padding-top: max(120px, 20vh);
-  width: 65%;
+  width: 70%;
 
   @media (max-width: 1000px) {
     width: 90%;
-    padding-top: max(120px, 15vh);
+    padding-top: max(100px, 11vh);
   }
 }
 
 .fastest-way__container {
   display: flex;
   flex-direction: row;
+  width: 90%;
+  margin: auto;
+  gap: 8%;
 
   @media (max-width: 1000px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 96%;
     margin: 0 auto;
   }
 
   .fastest-way__text {
-    width: 50%;
-    padding: 1.5%;
+    width: 45%;
+    padding: 1.5% 0;
     padding-bottom: 1%;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,7 @@
     & h2 {
       width: 70%;
       font-size: 2.5rem;
-      font-weight: 600;
+      font-weight: 500;
       font-family: "Quicksand", sans-serif;
       color: #424040;
       padding-bottom: 1.5rem;
@@ -94,7 +96,7 @@
   }
 
   .fastest-way__img {
-    width: 50%;
+    width: 55%;
     display: flex;
     padding-bottom: 1%;
 
