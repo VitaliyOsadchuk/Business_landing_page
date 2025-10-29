@@ -29,5 +29,6 @@
 
   & .testimonials__btn{
     width: max(200px, 20%);
+    padding-bottom: max(120px , 10vh);;
   }
 }
