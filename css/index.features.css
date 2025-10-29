@@ -42,13 +42,6 @@
   padding-top: max(100px, 22vh);
   padding-bottom: 50px;
 
-  & p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: "Quicksand", sans-serif;
-    color: #535252;
-  }
-
   @media (max-width: 1000px) {
     & .features__p--hide {
       display: none;
@@ -56,10 +49,6 @@
   }
 
   & h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: "Quicksand", sans-serif;
-    color: #424040;
     padding-bottom: 25px;
   }
 }
@@ -90,23 +79,11 @@
   width: 220px;
   gap: 20px;
 
-
-
   & img {
     width: 50px;
   }
 
-  & h3 {
-    font-size: 1.2rem;
-    line-height: 1.1;
-    font-family: "Rubik", sans-serif;
-    color: #3c3b3b;
-  }
-
   & p {
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: "Quicksand", sans-serif;
-    color: #535252;
+    font-size: 1.1rem;
   }
 }

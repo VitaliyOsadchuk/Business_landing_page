@@ -39,10 +39,6 @@
 
     & h2 {
       width: 70%;
-      font-size: 2.5rem;
-      font-weight: 500;
-      font-family: "Quicksand", sans-serif;
-      color: #424040;
       padding-bottom: 1.5rem;
 
       @media (max-width: 1000px) {
@@ -51,10 +47,6 @@
     }
 
     & p {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: "Quicksand", sans-serif;
-      color: #535252;
       padding-bottom: 3.5rem;
 
       @media (max-width: 1000px) {
@@ -70,27 +62,17 @@
   .fastest-way__btn {
     width: max(200px, 10vw);
 
-    & button {
-      width: 100%;
-      padding: max(15px, 1.5vh);
-      font-size: 1rem;
-      font-weight: 600;
-      background-color: #2091f9;
-      color: #fff;
-      border: none;
-      border-radius: 28px;
-      cursor: pointer;
-
-      @media (max-width: 1000px) {
+    @media (max-width: 1000px) {
+      & button {
         margin-bottom: 3rem;
       }
+    }
 
-      @media (min-width: 1000px) {
-        &:hover {
-          transition: box-shadow 0.3s ease, transform 0.3s ease;
-          box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
-          transform: translateY(-1px);
-        }
+    @media (min-width: 1000px) {
+      &:hover {
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
+        transform: translateY(-1px);
       }
     }
   }

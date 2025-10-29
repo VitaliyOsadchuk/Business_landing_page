@@ -1,0 +1,41 @@
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  color: #424040;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-family: "Rubik", sans-serif;
+  color: #3c3b3b;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  color: #535252;
+}
+
+@media (min-width: 1000px) {
+  button:hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
+    transform: translateY(-1px);
+  }
+}
+
+button {
+  width: 100%;
+  padding: max(15px, 1.5vh);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #2091f9;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+}

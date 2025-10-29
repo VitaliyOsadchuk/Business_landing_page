@@ -1,6 +1,10 @@
 @import "reboot.css";
+@import "common.css";
 @import "index.navbar.css";
 @import "index.hero.css";
 @import "index.features.css";
 @import "index.fastest-way.css";
 @import "index.lighting-fast.css";
+@import "index.partners.css";
+@import "index.testimonials.css";
+@import "index.pricing.css";

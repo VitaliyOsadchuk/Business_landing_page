@@ -63,12 +63,8 @@
 
     p {
       font-size: clamp(0.6rem, 6vw, 2rem);
-      font-family: "Quicksand", sans-serif;
-      font-weight: 400;
       padding-bottom: max(24px, 12vh);
       color: #ffffff;
-      /* opacity: 0;
-      animation: fadeInUp 1.5s ease-out 0.5s forwards; */
 
       @media (max-width: 1000px) {
         &{
@@ -97,13 +93,6 @@
       border-radius: 28px;
       cursor: pointer;
       transition: box-shadow 0.3s ease, transform 0.3s ease;
-
-      @media (min-width: 1000px) {
-        &:hover {
-          box-shadow: 0 0 10px #2091f9, 0 0 20px #2091f9;
-          transform: translateY(-1px);
-        }
-      }
     }
   }
 

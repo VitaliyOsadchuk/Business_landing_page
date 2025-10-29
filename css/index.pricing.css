@@ -1,0 +1,9 @@
+.pricing {
+  margin: auto;
+  width: 70%;
+  padding-top: max(100px , 12vh);
+
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
+}
